@@ -1,2 +1,9 @@
-<h1>Store#show</h1>
-<p>Find me in app/views/store/store/show.html.erb</p>
+<h1>Stock Items List</h1>
+
+<label> <%= "Number of Items: #{@stock_items.size}" %></label>
+
+<ul>
+  <% @stock_items.each do |item| %>
+    <li><%= "#{item.variant.id} - #{item.variant.name} - #{item.variant.cost_price}" %></li>
+  <% end %>
+</ul>

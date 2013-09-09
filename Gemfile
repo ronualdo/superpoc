@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
+gem 'restfulie'
 gem 'store', path: "store"
 
 # Bundle edge Rails instead:
