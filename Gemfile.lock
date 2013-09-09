@@ -1,3 +1,9 @@
+PATH
+  remote: store
+  specs:
+    store (0.0.1)
+      rails (~> 3.2.14)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -189,4 +195,5 @@ DEPENDENCIES
   refinerycms-acts-as-indexed (~> 1.0.0)
   sass-rails (~> 3.2.3)
   sqlite3
+  store!
   uglifier (>= 1.0.3)
