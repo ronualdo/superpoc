@@ -1,0 +1,10 @@
+A Small experiment with refinery
+
+Assumptions:
+
+Should have a spree instance running on localhost:3001
+
+To show the stock items list:
+
+1) run the project (rails s)
+2) access localhost:3000/store
